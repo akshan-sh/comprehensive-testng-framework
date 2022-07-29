@@ -29,7 +29,7 @@ public class ExcelReading {
 		int sheetIndex = 0;
 		while(sheetIndex<sheetCount)
 		{
-			if(xls.getSheetName(sheetIndex).equals("Sheet 1"))
+			if(xls.getSheetName(sheetIndex).equals("Tide Test data"))
 				break;
 			sheetIndex++;
 		}

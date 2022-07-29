@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 import com.pg.tide.uistore.SavingsCalculatorUI;
+import com.pg.tide.utilities.Logging;
 import com.pg.tide.utilities.Reporting;
 
 
@@ -16,25 +17,32 @@ public class SavingsCalculatorPage {
 	
 	SavingsCalculatorUI savingsUi;
 	Reporting report;
-	public SavingsCalculatorPage(WebDriver driver, Reporting report)
+	Logging log;
+	public SavingsCalculatorPage(WebDriver driver, Reporting report, Logging log)
 	{
 		savingsUi = new SavingsCalculatorUI(driver);
 		this.report = report;
+		this.log = log;
 	}
 	
-	public void calculateSavingsForTenWashes()
+	public void calculateSavings(String numberOfWash)
 	{		
-			savingsUi.getInputBox().sendKeys("10", Keys.ENTER);
+			savingsUi.getInputBox().sendKeys(numberOfWash, Keys.ENTER);
 			report.getTest().info("Entered 10 in the number of washes");
+			log.getLog().info("Entered 10 in the number of washes");
 			
 			try
 			{
 				if(savingsUi.getCostForTenWash().isDisplayed())
+				{
 					report.getTest().pass("Accurate cost calculation");
+					log.getLog().trace("Accurate cost calculation");
+				}
 			}
 			catch(Exception e)
 			{
 				report.getTest().fail("Something went wrong");
+				log.getLog().fatal("Something went wrong");
 				Assert.fail("Something went wrong");
 			}
 			

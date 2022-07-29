@@ -6,6 +6,7 @@
       <class name="com.pg.tide.runnable.Runner">
         <methods>
           <include name="startChat"/>
+          <include name="browseByNeedFebreze"/>
           <include name="initializer"/>
           <include name="afterTest"/>
           <include name="login"/>

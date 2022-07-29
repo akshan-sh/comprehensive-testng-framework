@@ -7,8 +7,10 @@
         <methods>
           <include name="startChat"/>
           <include name="initializer"/>
-          <include name="tearDown"/>
           <include name="afterTest"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="registration"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- com.pg.tide.runnable.Runner -->
