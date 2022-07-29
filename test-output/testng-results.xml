@@ -1,39 +1,280 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="9" total="10" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="8" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-29T16:31:50 GMT+05:30" name="Default suite" finished-at="2022-07-29T16:32:45 GMT+05:30" duration-ms="55278">
+  <suite started-at="2022-07-30T00:44:08 IST" name="Default suite" finished-at="2022-07-30T00:48:59 IST" duration-ms="291238">
     <groups>
     </groups>
-    <test started-at="2022-07-29T16:31:50 GMT+05:30" name="Default test" finished-at="2022-07-29T16:32:45 GMT+05:30" duration-ms="55278">
+    <test started-at="2022-07-30T00:44:08 IST" name="Default test" finished-at="2022-07-30T00:48:59 IST" duration-ms="291238">
       <class name="com.pg.tide.runnable.Runner">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.pg.tide.runnable.Runner@6ca320ab]" started-at="2022-07-29T16:31:50 GMT+05:30" name="beforeTest" finished-at="2022-07-29T16:31:50 GMT+05:30" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="initializer()[pri:0, instance:com.pg.tide.runnable.Runner@6ca320ab]" started-at="2022-07-29T16:31:50 GMT+05:30" name="initializer" finished-at="2022-07-29T16:31:58 GMT+05:30" duration-ms="7400" status="PASS">
+        <test-method is-config="true" signature="initializer()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:44:08 IST" name="initializer" finished-at="2022-07-30T00:44:16 IST" duration-ms="8213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializer -->
-        <test-method signature="checkPartCompanies()[pri:0, instance:com.pg.tide.runnable.Runner@6ca320ab]" started-at="2022-07-29T16:31:58 GMT+05:30" name="checkPartCompanies" finished-at="2022-07-29T16:32:44 GMT+05:30" duration-ms="46722" status="PASS">
+        <test-method signature="CalculateSavingsForSwitchingToColdWaterFor10Washes()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:44:16 IST" name="CalculateSavingsForSwitchingToColdWaterFor10Washes" finished-at="2022-07-30T00:44:20 IST" duration-ms="3608" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkPartCompanies -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pg.tide.runnable.Runner@6ca320ab]" started-at="2022-07-29T16:32:44 GMT+05:30" name="tearDown" finished-at="2022-07-29T16:32:45 GMT+05:30" duration-ms="1069" status="PASS">
+        </test-method> <!-- CalculateSavingsForSwitchingToColdWaterFor10Washes -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:44:20 IST" name="tearDown" finished-at="2022-07-30T00:44:20 IST" duration-ms="670" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkPartCompanies status=SUCCESS method=Runner.checkPartCompanies()[pri:0, instance:com.pg.tide.runnable.Runner@6ca320ab] output={null}]]]>
+                <![CDATA[[TestResult name=CalculateSavingsForSwitchingToColdWaterFor10Washes status=SUCCESS method=Runner.CalculateSavingsForSwitchingToColdWaterFor10Washes()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.pg.tide.runnable.Runner@6ca320ab]" started-at="2022-07-29T16:32:45 GMT+05:30" name="afterTest" finished-at="2022-07-29T16:32:45 GMT+05:30" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initializer()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:44:20 IST" name="initializer" finished-at="2022-07-30T00:44:26 IST" duration-ms="5172" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
+        </test-method> <!-- initializer -->
+        <test-method signature="CustomStainCheck()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:44:26 IST" name="CustomStainCheck" finished-at="2022-07-30T00:44:34 IST" duration-ms="8295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomStainCheck -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:44:34 IST" name="tearDown" finished-at="2022-07-30T00:44:35 IST" duration-ms="796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CustomStainCheck status=SUCCESS method=Runner.CustomStainCheck()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializer()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:44:35 IST" name="initializer" finished-at="2022-07-30T00:44:45 IST" duration-ms="10192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method signature="browseByNeedFebreze()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:44:45 IST" name="browseByNeedFebreze" finished-at="2022-07-30T00:44:50 IST" duration-ms="5612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseByNeedFebreze -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:44:50 IST" name="tearDown" finished-at="2022-07-30T00:44:51 IST" duration-ms="733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=browseByNeedFebreze status=SUCCESS method=Runner.browseByNeedFebreze()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializer()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:44:51 IST" name="initializer" finished-at="2022-07-30T00:45:01 IST" duration-ms="9496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method signature="changeLanguage()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:45:01 IST" name="changeLanguage" finished-at="2022-07-30T00:45:08 IST" duration-ms="7571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeLanguage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:45:08 IST" name="tearDown" finished-at="2022-07-30T00:45:09 IST" duration-ms="755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeLanguage status=SUCCESS method=Runner.changeLanguage()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializer()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:45:09 IST" name="initializer" finished-at="2022-07-30T00:45:19 IST" duration-ms="9611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method signature="checkContactUsIframe()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:45:19 IST" name="checkContactUsIframe" finished-at="2022-07-30T00:45:24 IST" duration-ms="5524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContactUsIframe -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:45:24 IST" name="tearDown" finished-at="2022-07-30T00:45:25 IST" duration-ms="800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkContactUsIframe status=SUCCESS method=Runner.checkContactUsIframe()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializer()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:45:25 IST" name="initializer" finished-at="2022-07-30T00:45:30 IST" duration-ms="5178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method signature="checkPartCompanies()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:45:30 IST" name="checkPartCompanies" finished-at="2022-07-30T00:46:18 IST" duration-ms="48210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPartCompanies -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:46:18 IST" name="tearDown" finished-at="2022-07-30T00:46:19 IST" duration-ms="408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkPartCompanies status=SUCCESS method=Runner.checkPartCompanies()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializer()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:46:19 IST" name="initializer" finished-at="2022-07-30T00:46:25 IST" duration-ms="6023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method signature="login()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:46:25 IST" name="login" finished-at="2022-07-30T00:47:07 IST" duration-ms="42312" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipped due to google captcha]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipped due to google captcha
+at com.pg.tide.pageobjects.SignUpNowPGPage.login(SignUpNowPGPage.java:135)
+at com.pg.tide.runnable.Runner.login(Runner.java:87)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:47:07 IST" name="tearDown" finished-at="2022-07-30T00:47:08 IST" duration-ms="863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SKIP method=Runner.login()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializer()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:47:08 IST" name="initializer" finished-at="2022-07-30T00:47:16 IST" duration-ms="7750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method signature="registration()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:47:16 IST" name="registration" finished-at="2022-07-30T00:48:01 IST" duration-ms="45093" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipped due to google captcha]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipped due to google captcha
+at com.pg.tide.pageobjects.SignUpNowPGPage.signUp(SignUpNowPGPage.java:69)
+at com.pg.tide.runnable.Runner.registration(Runner.java:66)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:48:01 IST" name="tearDown" finished-at="2022-07-30T00:48:02 IST" duration-ms="702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registration status=SKIP method=Runner.registration()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializer()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:48:02 IST" name="initializer" finished-at="2022-07-30T00:48:06 IST" duration-ms="4059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method signature="searchPodsProduct()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:48:06 IST" name="searchPodsProduct" finished-at="2022-07-30T00:48:08 IST" duration-ms="2874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPodsProduct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:48:08 IST" name="tearDown" finished-at="2022-07-30T00:48:09 IST" duration-ms="456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchPodsProduct status=SUCCESS method=Runner.searchPodsProduct()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializer()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:48:09 IST" name="initializer" finished-at="2022-07-30T00:48:19 IST" duration-ms="9627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method signature="startChat()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:48:19 IST" name="startChat" finished-at="2022-07-30T00:48:59 IST" duration-ms="40196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChat -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c]" started-at="2022-07-30T00:48:59 IST" name="tearDown" finished-at="2022-07-30T00:48:59 IST" duration-ms="380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=startChat status=SUCCESS method=Runner.startChat()[pri:0, instance:com.pg.tide.runnable.Runner@c074c0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.pg.tide.runnable.Runner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

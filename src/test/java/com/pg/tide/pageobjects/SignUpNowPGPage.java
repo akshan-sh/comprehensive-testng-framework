@@ -53,7 +53,7 @@ public class SignUpNowPGPage {
 				
 			}
 			
-		} catch(NoSuchElementException e ) {
+		} catch(Exception e ) {
 			//carrying on
 		}
 		
@@ -118,7 +118,7 @@ public class SignUpNowPGPage {
 				
 			}
 			
-		} catch(NoSuchElementException e ) {
+		} catch(Exception e ) {
 			//carrying on
 		}
 		
@@ -130,11 +130,13 @@ public class SignUpNowPGPage {
 				throw new SkipException("Skipped due to google captcha");
 				
 			}
-		} catch(NoSuchElementException e ) {
+		} catch(SkipException e) {
+			
+			throw new SkipException("Skipped due to google captcha"); 
+			
+		} catch(Exception e ) {
 			//carrying on
 			
-		} catch(SkipException e) {
-			throw new SkipException("Skipped due to google captcha"); 
 		}
 		
 		try {

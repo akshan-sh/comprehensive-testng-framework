@@ -5,6 +5,8 @@ package com.pg.tide.pageobjects;
 import java.util.ArrayList;
 
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
@@ -177,7 +179,7 @@ public class HomePage {
 		Actions action = new Actions(homeUi.driver);
 		
 		try{
-			if(homeUi.getChatClosed().isDisplayed())
+			if(!homeUi.getStartChat().isDisplayed())
 			{	
 				action.moveToElement(homeUi.getChatClosed()).build().perform();
 				
@@ -190,9 +192,19 @@ public class HomePage {
 			
 			throw new SkipException("Chat is closed right now, come between 10am to 6pm");
 			
-		} catch(Exception e) {
+		} catch(NoSuchElementException e) {
+			report.getTest().skip("Chat is closed right now");
+			report.getTest().skip(e.getMessage());
+			throw new SkipException("Chat is closed right now, come between 10am to 6pm");
+		}catch(TimeoutException e) {
+			report.getTest().fail("Button taking too much time to load");
+			report.getTest().info(e.getMessage());
+			Assert.fail("Button taking too much time to load");
+		}
+		catch(Exception e) {
 			report.getTest().fail("Something unexpected happened");
-			report.getTest().fail(e.getMessage());
+			report.getTest().info(e.getMessage());
+			Assert.fail("Something unexpected happened");
 		}
 		
 		

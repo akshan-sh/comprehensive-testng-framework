@@ -5,12 +5,10 @@
     <classes>
       <class name="com.pg.tide.runnable.Runner">
         <methods>
-          <include name="startChat"/>
-          <include name="browseByNeedFebreze"/>
           <include name="initializer"/>
           <include name="afterTest"/>
-          <include name="login"/>
           <include name="tearDown"/>
+          <include name="login"/>
           <include name="registration"/>
           <include name="beforeTest"/>
         </methods>

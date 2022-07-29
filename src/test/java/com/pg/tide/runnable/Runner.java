@@ -32,11 +32,7 @@ public class Runner {
 	Base base = new Base(); // creating global object of base class to be used by each test method
 	Reporting report = new Reporting();// creating global object for extent reporting
 	Logging log = new Logging();
-	@BeforeTest
-	public void beforeTest()
-	{	
-		
-	}
+	
 	
 	@BeforeMethod
 	public void initializer() throws IOException
@@ -44,7 +40,7 @@ public class Runner {
 		//initializing driver and navigating to tide homepage 
 		base.initializeDriver();
 		base.navigateDriver();
-		base.driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS); // setting implicit wait for 30 seconds
+		base.driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); // setting implicit wait for 30 seconds
 		base.driver.manage().window().maximize(); //maximizing browser window
 		
 		
@@ -238,12 +234,7 @@ public class Runner {
 	
 	
 	
-	@AfterTest
-	public void afterTest()
-	{
-		// report.getExtent().flush(); //flushing extent tests to report after executing all the test methods
-		
-	}
+	
 	
 	
 	

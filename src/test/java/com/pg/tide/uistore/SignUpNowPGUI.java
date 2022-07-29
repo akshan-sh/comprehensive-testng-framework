@@ -3,6 +3,8 @@ package com.pg.tide.uistore;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SignUpNowPGUI {
 	
@@ -80,15 +82,15 @@ public class SignUpNowPGUI {
 	}
 	public WebElement getGoogleCaptchaIframe()
 	{
-		return driver.findElement(googleCaptchaIframe);
+		return new WebDriverWait(driver, 5).until(ExpectedConditions.elementToBeClickable(googleCaptchaIframe));
 	}
 	public WebElement getSpamMarked()
 	{
-		return driver.findElement(spamMarked);
+		return new WebDriverWait(driver, 5).until(ExpectedConditions.elementToBeClickable(spamMarked));
 	}
 	public WebElement getAlreadyRegistered()
 	{
-		return driver.findElement(alreadyRegistered);
+		return new WebDriverWait(driver, 7).until(ExpectedConditions.elementToBeClickable(alreadyRegistered));
 	}
 	
 }
