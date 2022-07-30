@@ -1,6 +1,0 @@
-[INFO ] 2022-07-30 00:06:53.981 [main] Logging - Closing popup
-[INFO ] 2022-07-30 00:06:53.992 [main] Logging - Clicking on Register Link on homepage
-[INFO ] 2022-07-30 00:06:54.662 [main] Logging - Clicking on Signup on Registration Page
-[INFO ] 2022-07-30 00:07:02.769 [main] Logging - Entered all the credentials from the excel file
-[INFO ] 2022-07-30 00:07:03.965 [main] Logging - Clicked on created account
-[WARN ] 2022-07-30 00:07:09.889 [main] Logging - User already registered

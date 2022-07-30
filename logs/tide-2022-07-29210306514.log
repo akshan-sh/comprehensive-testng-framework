@@ -1,6 +1,0 @@
-[INFO ] 2022-07-29 21:03:17.056 [main] Logging - Closing popup
-[INFO ] 2022-07-29 21:03:17.062 [main] Logging - Clicking on Register Link on homepage
-[INFO ] 2022-07-29 21:03:17.236 [main] Logging - Clicking on Signup on Registration Page
-[INFO ] 2022-07-29 21:03:27.450 [main] Logging - Entered all the credentials from the excel file
-[INFO ] 2022-07-29 21:03:27.451 [main] Logging - Clicked on Login button
-[FATAL] 2022-07-29 21:03:46.297 [main] Logging - Unable to verify login
